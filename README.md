@@ -1,5 +1,5 @@
 <div align="center">
-<img src=". /static/icon.svg" alt="预览"/>
+<img src="./static/icon.svg" alt="预览"/>
 
 <h1 align="center">ChatGPT Next Web</h1>
 
@@ -7,13 +7,13 @@ One-click free deployment of your private ChatGPT web application.
 
 One-Click to deploy your own ChatGPT web UI.
 
-[演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https:/ /discord.gg/zrhvHCr79N) / [QQ 群](https://user-images.githubusercontent.com/16968934/228190818-7dd00845-e9b9-4363-97e5-44c507ac76da. jpeg) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg) / [Donate](#捐赠- donate-usdt)
+[演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https:/ /discord.gg/zrhvHCr79N) / [QQ 群](https://user-images.githubusercontent.com/16968934/228190818-7dd00845-e9b9-4363-97e5-44c507ac76da.jpeg) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg) / [Donate](#捐赠- donate-usdt)
 
 [! [Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa% 2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
 [! [Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
-! [主界面](. /static/cover.png)
+! [主界面](./static/cover.png)
 
 </div>
 
@@ -38,18 +38,18 @@ One-Click to deploy your own ChatGPT web UI.
 
 ## Usage
 
-1. Have your [OpenAI API Key](https://platform.openai.com/account/api-keys) ready.
-2. Click the button on the right to start deploying:
+1.Have your [OpenAI API Key](https://platform.openai.com/account/api-keys) ready.
+2.Click the button on the right to start deploying:
    [! [Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%) 2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), directly use Github account to log in, remember fill in the API Key in the environment variables page;
-3. once deployed, you can start using it;
-4. (Optional) [Bind custom domain name](https://vercel.com/docs/concepts/projects/domains/add-a-domain): Vercel assigned domain name DNS is polluted in some areas, bind custom domain name to connect directly.
+3.once deployed, you can start using it;
+4.(Optional) [Bind custom domain name](https://vercel.com/docs/concepts/projects/domains/add-a-domain): Vercel assigned domain name DNS is polluted in some areas, bind custom domain name to connect directly.
 
 ## Get Started
 
-1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys). 2.
-2. Click
+1.Get [OpenAI API Key](https://platform.openai.com/account/api-keys).2.
+2.Click
    [! [Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%) 2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web).
-3. enjoy :)
+3.enjoy :)
 
 ## Keep Updated
 
@@ -74,7 +74,7 @@ We recommend that you follow the steps below to re-deploy.
 - Go to the Vercel dashboard, delete the original project, then create a new project and select the project you just forked to redeploy.
 - Please manually add an environment variable named `OPENAI_API_KEY` and enter your API key as the value during the redeploy process.
 
-This project will be continuously maintained. If you want to keep the code repository up to date, you can check out the [Github documentation](https:// docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn how to synchronize a forked It is recommended to perform synchronization operations regularly.
+This project will be continuously maintained.If you want to keep the code repository up to date, you can check out the [Github documentation](https:// docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) to learn how to synchronize a forked It is recommended to perform synchronization operations regularly.
 
 You can star or watch this project or follow author to get release notifictions in time.
 
@@ -88,7 +88,7 @@ code1,code2,code3
 
 After adding or modifying this environment variable, please **redeploy** the project to make the changes take effect.
 
-This project provides limited access control. Please add an environment variable named `CODE` on the vercel environment variables page. should be passwords separated by comma like this.
+This project provides limited access control.Please add an environment variable named `CODE` on the vercel environment variables page.should be passwords separated by comma like this.
 
 ```
 code1,code2,code3
@@ -145,8 +145,8 @@ OPENAI_API_KEY=<your api key here>
 
 > If you are a mainland China user, it is not recommended to develop locally unless you can solve the OpenAI API local proxy problem independently.
 
-1. install nodejs and yarn, please ask ChatGPT for details;
-2. Run `yarn install && yarn dev` and you're done.
+1.install nodejs and yarn, please ask ChatGPT for details;
+2.Run `yarn install && yarn dev` and you're done.
 
 ### Local Deployment
 
@@ -164,9 +164,9 @@ docker run -d -p 3000:3000 -e OPENAI_API_KEY="" -e CODE="" yidadaa/chatgpt-next-
 
 ## Screenshot Screenshots
 
-! [Settings Settings](. /static/settings.png)
+! [Settings Settings](./static/settings.png)
 
-! [More Show More](. /static/more.png)
+! [More Show More](./static/more.png)
 
 
 ## Donate USDT
